@@ -1,0 +1,8 @@
+site_name: "MyNewComponent"
+site_description: "Component build by backstage"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

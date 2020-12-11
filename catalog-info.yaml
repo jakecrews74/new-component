@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "MyNewComponent"
+  description: "Component build by backstage"
+  annotations:
+    github.com/project-slug: "jakecrews74/new-component"
+    backstage.io/techdocs-ref: github:https://github.com/jakecrews74/new-component
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "guest"
